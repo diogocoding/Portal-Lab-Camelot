@@ -401,3 +401,8 @@ h2.section-title {
 .partners-section { padding: 4rem 0; background: var(--white-color); }
 .partners-logos { display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; gap: 2rem; }
 .partner-logo-text { font-size: 1.2rem; font-weight: 600; color: #888; }
+
+/* Estilo da Seção Roadmap */
+.roadmap-section { padding: 4rem 0; }
+.roadmap-timeline { display: flex; justify-content: space-between; text-align: center; gap: 2rem; }
+@media(max-width: 768px) { .roadmap-timeline { flex-direction: column; } }
