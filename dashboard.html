@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Painel - Lab Camelot</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container" id="navbar">
+        <div class="logo">Lab Camelot</div>
+        <nav class="nav-links">
+          <button id="logout-button" class="btn-header">Sair</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="dashboard-section">
+        <div class="container">
+          <h1 id="welcome-message">Carregando...</h1>
+          <p>
+            Confirmamos sua pré-inscrição no curso de **Certificação em Retrofit
+            Verde e Tecnologias Sustentáveis**.
+          </p>
+          <p>
+            Em breve, nossa equipe entrará em contato com os próximos passos!
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container"><p>&copy; 2025 Lab Camelot.</p></div>
+    </footer>
+    <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.7/auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.7/firestore-compat.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
