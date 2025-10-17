@@ -396,3 +396,8 @@ h2.section-title {
         flex-direction: column;
     }
 }
+
+/* Estilo da Seção de Parceiros */
+.partners-section { padding: 4rem 0; background: var(--white-color); }
+.partners-logos { display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; gap: 2rem; }
+.partner-logo-text { font-size: 1.2rem; font-weight: 600; color: #888; }
