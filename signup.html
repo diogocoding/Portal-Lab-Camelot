@@ -1,64 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro - Lab Camelot</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header class="header">
-      <div class="container" id="navbar">
-        <div class="logo"><a href="index.html">Lab Camelot</a></div>
-      </div>
-    </header>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header"><div class="container"><div class="logo"><a href="index.html">Lab Camelot</a></div></div></header>
 
     <main>
-      <section class="auth-section">
-        <div class="auth-container">
-          <h2>Crie sua Conta</h2>
-          <p>Garanta sua vaga na lista de espera da 1ª turma.</p>
-          <form id="signup-form" class="auth-form">
-            <input
-              type="text"
-              id="signup-name"
-              placeholder="Seu nome completo"
-              required
-            />
-            <input
-              type="email"
-              id="signup-email"
-              placeholder="Seu melhor e-mail"
-              required
-            />
-            <input
-              type="password"
-              id="signup-password"
-              placeholder="Crie uma senha"
-              required
-            />
-            <button type="submit" class="btn btn-primary">Criar Conta</button>
-          </form>
-          <div id="error-message" class="error-message"></div>
-          <p class="auth-switch">
-            Já tem uma conta? <a href="login.html">Faça login</a>
-          </p>
-        </div>
-      </section>
+        <section class="auth-section">
+            <div class="auth-container">
+                <h2>Crie sua Conta</h2>
+                <p>Garanta sua vaga na lista de espera da 1ª turma.</p>
+                <form id="signup-form" class="auth-form">
+                    <input type="text" id="signup-name" placeholder="Seu nome completo" required>
+                    <input type="email" id="signup-email" placeholder="Seu melhor e-mail" required>
+                    <input type="password" id="signup-password" placeholder="Crie uma senha (mínimo 6 caracteres)" required>
+                    <button type="submit" class="btn btn-primary">Criar Conta</button>
+                </form>
+                <div id="error-message" class="error-message"></div>
+                <p class="auth-switch">Já tem uma conta? <a href="login.html">Faça login</a></p>
+            </div>
+        </section>
     </main>
 
-    <footer class="footer">
-      <div class="container"><p>&copy; 2025 Lab Camelot.</p></div>
-    </footer>
-    <script defer src="https://www.gstatic.com/firebasejs/9.6.7/firebase-app-compat.js"></script>
-<script defer src="https://www.gstatic.com/firebasejs/9.6.7/auth-compat.js"></script>
-<script defer src="https://www.gstatic.com/firebasejs/9.6.7/firestore-compat.js"></script>
-<script defer src="app.js"></script>
-  </body>
+    <footer class="footer"><div class="container"><p>&copy; 2025 Lab Camelot.</p></div></footer>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="app.js"></script>
+</body>
 </html>
-
-
