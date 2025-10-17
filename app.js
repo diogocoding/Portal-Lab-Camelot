@@ -2,12 +2,12 @@
 
 // ATENÇÃO: COLE AQUI A CONFIGURAÇÃO DO SEU PROJETO FIREBASE
 const firebaseConfig = {
-  apiKey: "SUA_API_KEY",
-  authDomain: "SEU_AUTH_DOMAIN",
-  projectId: "SEU_PROJECT_ID",
-  storageBucket: "SEU_STORAGE_BUCKET",
-  messagingSenderId: "SEU_MESSAGING_SENDER_ID",
-  appId: "SEU_APP_ID"
+  apiKey: "AIzaSyBIyv3d26V2EIxqBSHl8Jo9M4_wV2-WKrU",
+  authDomain: "lab-camelot-mvp.firebaseapp.com",
+  projectId: "lab-camelot-mvp",
+  storageBucket: "lab-camelot-mvp.firebasestorage.app",
+  messagingSenderId: "508671276021",
+  appId: "1:508671276021:web:2619c181030441b9b026bc"
 };
 
 // Inicializa o Firebase
@@ -98,3 +98,4 @@ if (logoutButton) {
         });
     });
 }
+
