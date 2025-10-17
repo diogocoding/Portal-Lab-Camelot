@@ -406,3 +406,12 @@ h2.section-title {
 .roadmap-section { padding: 4rem 0; }
 .roadmap-timeline { display: flex; justify-content: space-between; text-align: center; gap: 2rem; }
 @media(max-width: 768px) { .roadmap-timeline { flex-direction: column; } }
+
+/* Estilo da Seção de Depoimentos */
+.testimonials-section { padding: 4rem 0; }
+.testimonials-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+.testimonial-card { background: var(--white-color); padding: 2rem; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border-left: 5px solid var(--primary-color); }
+.testimonial-card p { font-style: italic; margin-bottom: 1rem; }
+.testimonial-card h4 { text-align: right; color: var(--secondary-color); }
+@media(max-width: 768px) { .testimonials-grid { grid-template-columns: 1fr; } }
+
