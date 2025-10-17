@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Painel - Lab Camelot</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">Lab Camelot</div>
+            <nav class="nav-links">
+                <button id="logout-button" class="btn-header">Sair</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="dashboard-hero">
+            <div class="container">
+                <h1 id="welcome-message">Carregando...</h1>
+                <p>Sua jornada para se tornar um agente de mudança começa agora. Explore seus cursos abaixo.</p>
+            </div>
+        </section>
+
+        <section class="courses-section">
+            <div class="container">
+                <h2 class="section-title">Sua Trilha de Aprendizagem</h2>
+                <div class="courses-grid">
+                    
+                    <div class="course-card">
+                        <img src="https://via.placeholder.com/400x220.png/005A7A/FFFFFF?text=Retrofit+Verde" alt="Curso de Retrofit Verde">
+                        <div class="course-card-content">
+                            <span class="course-status status-confirmado">Inscrição Confirmada</span>
+                            <h3>Certificação em Retrofit Verde</h3>
+                            <p>Aprenda na prática a reformar imóveis com técnicas sustentáveis, desde a fundação até o acabamento.</p>
+                            <button class="btn btn-primary" disabled>Aguarde o Início</button>
+                        </div>
+                    </div>
+
+                    <div class="course-card">
+                        <img src="https://via.placeholder.com/400x220.png/FF7A00/FFFFFF?text=Empreendedorismo" alt="Curso de Empreendedorismo Criativo">
+                        <div class="course-card-content">
+                            <span class="course-status status-breve">Em Breve</span>
+                            <h3>Empreendedorismo Criativo</h3>
+                            <p>Transforme sua paixão em um negócio. Aprenda a criar um plano de negócios e a captar clientes.</p>
+                            <button class="btn" disabled>Em Breve</button>
+                        </div>
+                    </div>
+
+                    <div class="course-card">
+                         <img src="https://via.placeholder.com/400x220.png/333333/FFFFFF?text=Cultura+Local" alt="Curso sobre Cultura Manguebeat">
+                        <div class="course-card-content">
+                            <span class="course-status status-disponivel">Disponível</span>
+                            <h3>História e Cultura Manguebeat</h3>
+                            <p>Mergulhe na história do movimento que colocou Recife no mapa cultural do mundo.</p>
+                            <button class="btn btn-primary">Acessar Conteúdo</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer"><div class="container"><p>&copy; 2025 Lab Camelot.</p></div></footer>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
