@@ -1,0 +1,21 @@
+{
+  "name": "Lab Camelot",
+  "short_name": "Lab Camelot",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#FFFBF5",
+  "theme_color": "#005A7A",
+  "description": "O laboratório vivo de regeneração urbana de Santo Antônio.",
+  "icons": [
+    {
+      "src": "https://i.postimg.cc/SxDz654c/1440px-30-anos-do-Movimento-Manguebeat-obra-localizada-no-bairro-do-Recife-PE.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "https://i.postimg.cc/SxDz654c/1440px-30-anos-do-Movimento-Manguebeat-obra-localizada-no-bairro-do-Recife-PE.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
